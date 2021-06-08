@@ -1,0 +1,9 @@
+android/build.gradle, do /app/.
+
+Só adicionar essa linha no final do arquivo:
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+
+//"../../node_modules/react-native-vector-icons/fonts.gradle"
+import Icon from 'react-native-vector-icons/MaterialIcons'
